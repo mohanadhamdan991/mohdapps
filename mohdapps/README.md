@@ -1,2 +1,0 @@
-# mohdapps
-Mohannad Hamdan Apps
