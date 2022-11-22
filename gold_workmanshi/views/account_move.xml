@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="gold_workmanship_account_move_form_inherit" model="ir.ui.view">
+            <field name="name">gold.workmanship.account.move.form.inherit</field>
+            <field name="model">account.move</field>
+            <field name="inherit_id" ref="account.view_move_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='invoice_line_ids']/tree/field[@name='price_unit']" position="after">
+                    <field name="new_price_unit"/>
+                    <field name="gold_workmanship"/>
+                </xpath>
+                <xpath expr="//field[@name='invoice_line_ids']/tree/field[@name='price_unit']" position="attributes">
+                    <attribute name="invisible">1</attribute>
+                </xpath>
+                <xpath expr="//field[@name='line_ids']/tree/field[@name='debit']" position="before">
+                    <field name="new_price_unit" invisible="1"/>
+                    <field name="gold_workmanship" invisible="1"/>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>
