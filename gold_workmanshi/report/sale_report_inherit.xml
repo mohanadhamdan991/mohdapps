@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="my_sale_order_saleorder_document_inherit" inherit_id="sale.report_saleorder_document">
+        <xpath expr="//th[@name='th_taxes']" position="before">
+            <th name="gold_workmanship" class="text-right">Gold Workmanship</th>
+        </xpath>
+        <xpath expr="//td[@name='td_taxes']" position="before">
+            <td name="td_priceunit" class="text-right">
+                <span t-field="line.gold_workmanship"/>
+            </td>
+        </xpath>
+    </template>
+</odoo>
