@@ -8,7 +8,7 @@
     'category': 'Accounting',
     'author': "HamdanERP",
     'maintainer': 'HamdanERP',
-    'price': '18.99',
+    'price': '0.99',
     'currency': 'USD',
     'website': 'https://www.hamdanerp.com',
     'license': 'AGPL-3',
