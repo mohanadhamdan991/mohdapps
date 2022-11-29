@@ -8,7 +8,7 @@
     'category': 'Discuss',
     'author': "HamdanERP",
     'maintainer': 'HamdanERP',
-    'price': '2.99',
+    'price': '0.99',
     'currency': 'USD',
     'website': 'https://www.hamdanerp.com',
     'license': 'AGPL-3',
