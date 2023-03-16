@@ -8,7 +8,7 @@
     'category': 'Extra Tools',
     'author': "Mohannad Hamdan",
     'maintainer': 'Mohannad Hamdan',
-    'price': '0.99',
+    'price': '0.01',
     'currency': 'USD',
     'website': "https://www.hamdanerp.com",
     'license': 'AGPL-3',
