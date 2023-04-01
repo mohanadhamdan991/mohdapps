@@ -6,7 +6,7 @@
     'sequence': -100,
     'description': """This module is used to send msg on whatsapp web""",
     'category': 'Discuss',
-    'author': "HamdanERP",
+    'author': "HamdanERP Ltd.",
     'maintainer': 'HamdanERP',
     'website': 'https://www.hamdanerp.com',
     'license': 'AGPL-3',
