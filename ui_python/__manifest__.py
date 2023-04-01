@@ -6,7 +6,7 @@
     'sequence': -100,
     'description': """Execute Python Codes""",
     'category': 'Extra Tools',
-    'author': "HamdanERP",
+    'author': "HamdanERP Ltd.",
     'maintainer': 'HamdanERP',
     'website': "https://www.hamdanerp.com",
     'license': 'AGPL-3',
